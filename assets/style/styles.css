@@ -617,6 +617,7 @@ table {
   --color-primary-green: #B2DAB8;
   --color-primary-yellow: #E4DC4B;
   --color-primary-purple: #A79FC8;
+  --color-white: #f2f2f2;
 
   /** color transparency */
   --color-primary-blue-step1: rgba(23, 52, 94, 0.75);
@@ -740,7 +741,7 @@ html {
   top: var(--space-lg);
   left: var(--space-lg);
   background-position: top left;
-  fill: var(--color-primary-blue);
+  fill: var(--color-white);
 }
 
 .top-icon-yellow {
@@ -756,7 +757,7 @@ html {
   bottom: var(--space-lg);
   right: var(--space-lg);
   background-position: bottom right;
-  fill: var(--color-primary-blue);
+  fill: var(--color-white);
 }
 
 .bottom-icon-yellow {
